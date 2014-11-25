@@ -12,8 +12,8 @@ void des_encrypt( const unsigned char *plaintext,
     const unsigned char *key );
 
 
-void des_decrypt( const unsigned char *input,
-    int input_len, unsigned char *output,
+void des_decrypt( const unsigned char *ciphertext,
+    const int ciphertext_len, unsigned char *plaintext,
     const unsigned char *key );
 
 #endif
